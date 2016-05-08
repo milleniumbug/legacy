@@ -1,0 +1,8 @@
+all: release
+
+
+release:
+	g++ -O2 -mwindows -Wall main.cpp -lfltk -lfltk_forms -lcomctl32 -lgdi32 -lole32 -luuid -o main.exe
+
+debug:
+	g++ -g -Wall main.cpp -lfltk -lfltk_forms -lcomctl32 -lgdi32 -lole32 -luuid -o main.exe
