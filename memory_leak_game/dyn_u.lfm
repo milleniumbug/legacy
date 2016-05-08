@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 146
+  Height = 555
+  Top = 84
+  Width = 739
+  Caption = 'MemoryLeak Game'
+  ClientHeight = 555
+  ClientWidth = 739
+  OnCreate = FormCreate
+  LCLVersion = '0.9.30.2'
+  object Label1: TLabel
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 47
+    Caption = 'Punkty: 0'
+    Font.CharSet = 4
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 456
+    Height = 14
+    Top = 96
+    Width = 32
+    Caption = 'Label2'
+    Font.CharSet = 4
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 46
+    Height = 14
+    Top = 472
+    Width = 32
+    Caption = 'Label3'
+    Font.CharSet = 4
+    ParentColor = False
+    ParentFont = False
+  end
+  object Timer1: TTimer
+    Interval = 140
+    OnTimer = Timer1Timer
+    left = 456
+    top = 24
+  end
+end
