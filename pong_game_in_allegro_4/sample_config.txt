@@ -1,0 +1,7 @@
+1024
+768
+kula3.bmp
+paletka2.bmp
+2
+3
+COM1
